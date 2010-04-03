@@ -1,0 +1,9 @@
+My attempt at solving the problems of Project Euler in ruby.
+
+=== Generator
+There's a simple generator that creates a default script that'll output a warning if the solution runs longer than 60 seconds.
+
+==== Example
+To generate the script for problem 1
+  ruby gen.rb 1
+This will create the file 1.rb using the template.
